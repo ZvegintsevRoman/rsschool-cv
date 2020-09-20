@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
   <title>RS School CV Zvegintsev</title>
 </head>
 <body>
@@ -19,7 +19,107 @@
       </div>
     </header>
     <main>
-      
+      <div class="cv-content">
+        <section id="contact-info">
+          <h2>Contact Info</h2>
+          <ul>
+            <li>Email: <a href="mailto:zvegintsev.roma@yandex.by"><i>zvegintsev.roma@yandex.by</i></a></li>
+            <li>Phone / Viber: <i>+375 (29) 368-74-58</i></li>
+            <li>Skype: <i>live:romaquid</i></li>
+            <li>Telegram: <a href="https://t.me/ZvegintsevRoman"><i>@ZvegintsevRoman</i></a></li>
+          </ul>
+        </section>
+        <section id="summary">
+          <h2>Summary</h2>
+          <article class="cv-article">
+            <p>At my first job as an electronics engineer at Belarusian Railways I was frequently dealing with various information systems
+              and web-based applications that help people in their daily tasks, and thus it was natural for me to get interested in web development.
+              It was owing to this interest that I started exploring front end.</p>
+          </article>
+        </section>
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML 5</li>
+            <li>CSS 3</li>
+            <li>JavaScript ES6</li>
+            <li>Git</li>
+            <li>Angular</li>
+            <li>Mercurial</li>
+            <li>Scss</li>
+            <li>TypeScript</li>
+          </ul>
+        </section>
+        <section id="code-example">
+          <h2>Code Examples</h2>
+          <a href="https://www.codewars.com/kata/5cd4aec6abc7260028dcd942">6 kyu. Shortest steps to a number CodeWars kata solution</a>
+          <div class="javascript-example">
+            <pre>
+              <code>
+                function shortestStepsToNum(num) {
+                  let count = 0;
+                  while (num !== 1) {
+                    if (num % 2 === 0) {
+                      num /= 2;
+                      count++;
+                    } else {
+                      num -= 1;
+                      count++;
+                    }
+                  }
+                  return count;
+                }
+              </code>
+            </pre>
+          </div>
+          <a href="https://www.codewars.com/kata/52efefcbcdf57161d4000091">6 kyu. Count characters in your string CodeWars kata solution</a>
+          <div class="javascript-example">
+            <pre>
+              <code>
+                function count (string) {  
+                  let result = {};
+                  string.split('').forEach(letter => {
+                    result.hasOwnProperty(letter)
+                      ? result[letter]++
+                      : result[letter] = 1;
+                  });
+                  return result;
+                }
+              </code>
+            </pre>
+          </div>
+        </section>
+        <section id="experience">
+          <h2>Experience</h2>
+          <ul>
+            <li><a href="https://www.codecademy.com/profiles/Zvegintsev">CodeCademy profile</a></li>
+            <li><a href="https://www.codewars.com/users/ZvegintsevRoman">CodeWars profile</a></li>
+            <li><span href="#">Currently working at LLC ByTechSolution as Front-end developer</span></li>
+          </ul>
+        </section>
+        <section id="education">
+          <h2>Education</h2>
+          <h3>Belarusian State University of Informatics and Radioelectronics</h3>
+          <ul>
+            <li>Years of education: <i>2012-2017</i></li>
+            <li>Faculty: <i>Faculty of Computer-Aided Design</i></li>
+            <li>Major: <i>Design and Manufacture of Radioelectronic Devices</i></li>
+            <li>Degree: <i>Bachelor</i></li>
+          </ul>
+        </section>
+        <section id="english">
+          <h2>English</h2>
+          <a href="https://www.efset.org/cert/8UFCXc">C2 (Proficient) according to EFSET.org</a>
+          <article class="cv-article">
+            <p>I started learning English in the 1st grade at school. At my university I have had 2 semesters of technical English.</p>
+            <p>I also participated in conferences held in English. I got used to looking for information in English, especially tech related. The Internet
+              platforms which I read include Reddit, Medium and other sources of articles and technical documentation. I also watch a variety of YouTube
+              tech-bloggers, TV shows and movies in English.</p>
+            <p>Studying english twice a week at courses (Intermediate group).</p>
+            
+          </article>
+        </section>
+      </div>
     </main>  
   </div>
 </body>
