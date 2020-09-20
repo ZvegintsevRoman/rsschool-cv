@@ -48,3 +48,28 @@ function count (string) {
    return result;
 }
 ```
+
+## *Experience*
+
+- [*CodeCademy profile*](https://www.codecademy.com/profiles/Zvegintsev)
+- [*CodeWars profile*](https://www.codewars.com/users/ZvegintsevRoman)
+- Currently working at LLC ByTechSolution as Front-end developer
+
+## *Education*
+
+### Belarusian State University of Informatics and Radioelectronics
+
+- Years of education: *2012-2017*
+- Faculty: *Faculty of Computer-Aided Design*
+- Major: *Design and Manufacture of Radioelectronic Devices*
+- Degree: *Bachelor*
+
+## *English*
+
+[*C2 (Proficient) according to __EFSET.org__*](https://www.efset.org/cert/8UFCXc)  
+
+I started learning English in the 1st grade at school. At my university I have had 2 semesters of technical English. I also participated in conferences held in English.
+
+I got used to looking for information in English, especially tech related. The Internet platforms which I read include Reddit, Medium and other sources of articles and technical documentation. I also watch a variety of YouTube tech-bloggers, TV shows and movies in English.
+
+Studying english twice a week at courses (Intermediate group).
